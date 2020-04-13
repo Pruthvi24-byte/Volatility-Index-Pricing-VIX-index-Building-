@@ -1,9 +1,9 @@
 # Volatility-Index-Pricing-(VIX index Building)
-In this project we investigated how to compute volatility indices, properties of volatility, and how to price derivatives on volatility.
+In this project, we investigated how to compute volatility indices, properties of volatility, and how to price derivatives on volatility.
 
-Pricing options requires good estimates of expected volatility. Since 2004 traders can directly get an exposure to volatility by trading futures on so called volatility indices. Volatility indices reflect the expected variance (under the risk-neutral measure).
+Pricing options requires good estimates of expected volatility. Since 2004, traders can directly get an exposure to volatility by trading futures on so called volatility indices. Volatility indices reflect the expected variance (under the risk-neutral measure).
 
-Downloaded several option series on the SP500 index from OptionMetric (note, that the strike price is multiplied by 1,000). Wrote R program with two parameters:
+Downloaded several option series on the SP500 index from OptionMetric (note that the strike price is multiplied by 1,000). Wrote R program with two parameters:
 
 1. Interest rate
 2. Days to compute the volatility index
