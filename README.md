@@ -5,8 +5,8 @@ Pricing options requires good estimates of expected volatility. Since 2004 trade
 
 Downloaded several option series on the SP500 index from OptionMetric (note, that the strike price is multiplied by 1,000). Wrote R program with two parameters:
 
-Interest rate
-Days to compute the volatility index
+1. Interest rate
+2. Days to compute the volatility index
 
 Using these option series and the program, constructed a 30-day and 93-day volatility index as explained in “The CBOE Volatility Index - VIX” (CBOE) official white paper on building vix index. In the construction, we assumed an interest-rate of zero percent and options expire at midnight.
 
